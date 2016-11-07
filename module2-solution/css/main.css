@@ -1,0 +1,88 @@
+* {
+	box-sizing: border-box;
+}
+
+div.menu-item {
+	border: 1px solid black;
+	position: relative;
+	padding: 0 10px;
+	margin: 0 auto 30px;
+	background-color: #bbb;
+}
+
+div.menu-item > p {
+	margin: 30px 5px 15px;
+}
+
+section > div:nth-child(1) .section-title {
+	background-color: pink;
+}
+section > div:nth-child(2) .section-title {
+	background-color: red;
+	color: white;
+}
+section > div:nth-child(3) .section-title {
+	background-color: gold;
+}
+
+div > span.title {
+	font-size: 1.75em;
+}
+body > div {
+	margin-top: 30px;
+}
+
+.container {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.text-center {
+  text-align: center;
+}
+.section-title {
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: 1px solid black;
+	width: 100px;
+
+	text-align: center;
+	font-size: 1.25em;
+}
+
+
+/********** PC **********/
+@media (min-width: 992px) {
+	.col-lg-4, .col-lg-12 {
+		float: left;
+		padding: 0 15px;
+	}
+	.col-lg-4 {
+		width: 33.33%;
+	}
+}
+
+/********** Tablet **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6, .col-md-12 {
+		float: left;
+		padding: 0 15px;
+	}
+
+	.col-md-6 {
+		width: 50%;
+	}
+	.col-md-12 {
+		width: 100%;
+	}
+}
+
+/********** Mobile **********/
+@media (max-width: 767px) {
+	.col-sd-12 {
+		float: left;
+		width: 100%;
+		padding: 0 15px;
+	}
+}
+
