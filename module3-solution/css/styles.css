@@ -1,0 +1,16 @@
+.menu-desc {
+  background-color: #ccc;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#menu-title {
+  font-size: 2em;
+}
+.menu-item-title {
+  font-size: 1.5em;
+}
+.menu-item-desc {
+  padding: 15px;
+  background-color: #ccc;
+  margin-bottom: 15px;
+}
